@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Yoin</title>
+        <item>
+            <title>0.0.2</title>
+            <pubDate>Fri, 07 Aug 2026 14:07:05 +0000</pubDate>
+            <link>https://github.com/yagince/yoin-releases</link>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.2/Yoin-0.0.2.dmg" length="21927476" type="application/octet-stream" sparkle:edSignature="/C1biMYt8Wod1dLz1If75iheasToiDly2FNxLi2UnUn1K0RmzgaYV8uBb9XtlJCi7aIa+oQV4aGWbQLpYh3sCA=="/>
+        </item>
+    </channel>
+</rss>
