@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="840"
+  height="240"
+  viewBox="0 0 840 240"
+  role="img"
+  aria-labelledby="title description"
+>
+  <title id="title">Yoin logo</title>
+  <desc id="description">A cyan voice waveform expands into amber echo rings and settles into a cursor.</desc>
+  <defs>
+    <linearGradient id="echo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9B7CF6"/>
+      <stop offset="0.54" stop-color="#C778A3"/>
+      <stop offset="1" stop-color="#E9C46A"/>
+    </linearGradient>
+  </defs>
+
+  <path
+    d="M38 120 C46 120 47 96 56 96 C65 96 66 139 75 139 C84 139 86 106 95 106 C104 106 105 120 116 120 H142"
+    fill="none"
+    stroke="#B49AFB"
+    stroke-width="7"
+    stroke-linecap="round"
+  />
+  <path
+    d="M154 68 A70 70 0 1 1 154 172"
+    fill="none"
+    stroke="url(#echo)"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+  <path
+    d="M143 40 A100 100 0 1 1 143 200"
+    fill="none"
+    stroke="url(#echo)"
+    stroke-width="5"
+    stroke-linecap="round"
+    opacity="0.76"
+  />
+  <path
+    d="M132 19 A122 122 0 1 1 132 221"
+    fill="none"
+    stroke="url(#echo)"
+    stroke-width="4"
+    stroke-linecap="round"
+    opacity="0.40"
+  />
+  <rect x="238" y="186" width="13" height="26" rx="2" fill="#E9C46A"/>
+
+  <text
+    x="390"
+    y="146"
+    fill="#F5F1EA"
+    font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif"
+    font-size="82"
+    font-weight="560"
+    letter-spacing="13"
+  >yoin</text>
+  <text
+    x="710"
+    y="141"
+    fill="#A7A0B3"
+    font-family="'Hiragino Sans', 'Yu Gothic', sans-serif"
+    font-size="26"
+    font-weight="500"
+    letter-spacing="6"
+  >余韻</text>
+</svg>
