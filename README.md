@@ -20,8 +20,8 @@ macOSアプリです。名前は日本語の「余韻」に由来します。声
 
 ## ダウンロード
 
-[Releases](https://github.com/yagince/yoin-releases/releases/latest)から最新のDMGを
-取得し、`Yoin.app`を`Applications`へドラッグしてください。
+[Yoin公式サイト](https://yagince.github.io/yoin-releases/)から最新のDMGを取得し、
+`Yoin.app`を`Applications`へドラッグしてください。
 
 インストール済みのYoinは、メニューバーの「アップデートを確認…」から更新できます。
 設定の「一般 > アップデート」で自動確認を切り替えられます。
@@ -55,6 +55,7 @@ codesign --test-requirement="=notarized" --verify /Applications/Yoin.app
 Yoinの配布物と、アプリ内アップデート情報を配信するための公開リポジトリです。
 
 - `docs/appcast.xml` — Sparkle 2がアップデートの有無を確認するためのフィード
+- `docs/index.html` — Yoin公式サイト
 - Releases — Developer ID Applicationで署名し、Appleの公証を受けたDMG
 
 Yoin本体のソースコードは別のリポジトリにあり、公開していません。

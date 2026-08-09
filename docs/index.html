@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a0810" />
+    <meta
+      name="description"
+      content="Yoinは、マイクとMacの音声をリアルタイムに文字起こしし、ローカルAIで読みやすい言葉へ整えるmacOSアプリです。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:title" content="Yoin — 声の余韻を、言葉に。" />
+    <meta
+      property="og:description"
+      content="声が消えたあとも、意味は言葉として残る。すべてをMacの中で処理する文字起こしアプリ。"
+    />
+    <meta property="og:image" content="https://yagince.github.io/yoin-releases/assets/yoin-og.png" />
+    <meta property="og:url" content="https://yagince.github.io/yoin-releases/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>Yoin — 声の余韻を、言葉に。</title>
+    <link rel="icon" href="./assets/yoin-logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Yoin",
+        "operatingSystem": "macOS 26 or later",
+        "applicationCategory": "ProductivityApplication",
+        "description": "マイクとシステム音声をMac内で文字起こしし、ローカルAIで整形するmacOSアプリ。",
+        "downloadUrl": "https://github.com/yagince/yoin-releases/releases/latest"
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">本文へ移動</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Yoin トップへ">
+        <img src="./assets/yoin-logo.svg" alt="" />
+      </a>
+      <nav aria-label="メインナビゲーション">
+        <a href="#experience">できること</a>
+        <a href="#privacy">プライバシー</a>
+        <a class="nav-download" href="https://github.com/yagince/yoin-releases/releases/latest">
+          ダウンロード
+        </a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span>macOSのための音声入力</p>
+          <h1>声の余韻を、<br /><span>言葉に。</span></h1>
+          <p class="hero-lead">
+            会話をリアルタイムに文字へ起こし、<br class="desktop-only" />
+            あなたのMacで、役立つ文章へ整える。
+          </p>
+          <div class="hero-actions">
+            <a
+              class="button button-primary"
+              data-download-link
+              href="https://github.com/yagince/yoin-releases/releases/latest"
+            >
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M12 3v12m0 0 5-5m-5 5-5-5M5 20h14" />
+              </svg>
+              Mac版をダウンロード
+            </a>
+            <a class="button button-quiet" href="#experience">Yoinを見る</a>
+          </div>
+          <p class="compatibility">
+            Apple Silicon · macOS 26以降 · <span data-version>最新版</span>
+          </p>
+        </div>
+
+        <div class="echo-stage" aria-label="音声が言葉として残る様子を表したグラフィック">
+          <span class="kanji" aria-hidden="true">余韻</span>
+          <div class="echo-visual" aria-hidden="true">
+            <div class="voice-wave">
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <div class="echo-ring ring-one"></div>
+            <div class="echo-ring ring-two"></div>
+            <div class="echo-ring ring-three"></div>
+            <span class="cursor"></span>
+          </div>
+        </div>
+
+        <p class="hero-footnote">声が消えたあとも、意味は言葉として残る。</p>
+      </section>
+
+      <section class="product-scene" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <p class="eyebrow">会話を、そのまま次へ</p>
+          <h2 id="experience-title">聞く。残す。整える。</h2>
+          <p>起動から完成まで、会話の流れを止めません。</p>
+        </div>
+
+        <div class="app-window" role="img" aria-label="Yoinの会話表示と整形結果のイメージ">
+          <div class="window-bar">
+            <div class="traffic-lights" aria-hidden="true"><i></i><i></i><i></i></div>
+            <span>Yoin</span>
+            <span class="window-state"><i></i>聞いています</span>
+          </div>
+          <div class="window-content">
+            <section class="transcript-pane">
+              <div class="pane-title"><span>☰</span>文字起こし</div>
+              <div class="conversation">
+                <article class="bubble bubble-mine">
+                  <strong>自分</strong>
+                  <p>今日の決定事項を確認しておきましょう。</p>
+                </article>
+                <article class="bubble bubble-remote">
+                  <strong>相手</strong>
+                  <p>まず試作版を共有して、金曜日にフィードバックをまとめます。</p>
+                </article>
+                <article class="bubble bubble-mine">
+                  <strong>自分</strong>
+                  <p>では、次の打ち合わせまでに反映します。</p>
+                </article>
+              </div>
+            </section>
+            <section class="result-pane">
+              <div class="pane-title"><span>✣</span>整形結果</div>
+              <div class="result-paper">
+                <p class="result-label">会議メモ</p>
+                <h3>次のアクション</h3>
+                <ul>
+                  <li>試作版を共有する</li>
+                  <li>金曜日にフィードバックを集約する</li>
+                  <li>次回までに内容を反映する</li>
+                </ul>
+                <div class="copy-complete"><span>✓</span>クリップボードへコピー</div>
+              </div>
+            </section>
+          </div>
+          <div class="window-footer">
+            <span><i class="live-dot"></i>聞いています</span>
+            <div class="mini-wave" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <span>⌥ Space</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="sequence" aria-label="Yoinの3つの流れ">
+        <article>
+          <p class="sequence-number">01</p>
+          <div class="sequence-icon waveform-icon" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i>
+          </div>
+          <h3>会話を聞く</h3>
+          <p>マイクとシステム音声を別々に取得。自分と相手の声をリアルタイムに表示します。</p>
+        </article>
+        <article>
+          <p class="sequence-number">02</p>
+          <div class="sequence-icon text-icon" aria-hidden="true"><i></i><i></i><i></i></div>
+          <h3>言葉として残す</h3>
+          <p>会話表示、字幕、ミニ表示。今の作業に合う大きさで、最新の発言を追いかけられます。</p>
+        </article>
+        <article>
+          <p class="sequence-number">03</p>
+          <div class="sequence-icon sparkle-icon" aria-hidden="true">✦</div>
+          <h3>目的に合わせて整える</h3>
+          <p>会議メモ、要約、文章入力。プリセットを選び、ローカルAIで次に使える形へ整えます。</p>
+        </article>
+      </section>
+
+      <section class="modes-section" aria-labelledby="modes-title">
+        <div class="section-heading section-heading-left">
+          <p class="eyebrow">必要なときだけ、そこにいる</p>
+          <h2 id="modes-title">集中を邪魔しない、3つの表示。</h2>
+        </div>
+        <div class="mode-stack">
+          <article class="mode-card mode-conversation">
+            <div class="mode-copy">
+              <span>会話表示</span>
+              <h3>誰が、何を話したかまで。</h3>
+              <p>会議の流れを見ながら、自分と相手の発言を時系列で確認。</p>
+            </div>
+            <div class="mode-demo conversation-demo" aria-hidden="true">
+              <i class="message mine"></i><i class="message theirs"></i><i class="message mine short"></i>
+            </div>
+          </article>
+          <article class="mode-card mode-caption">
+            <div class="mode-copy">
+              <span>字幕表示</span>
+              <h3>最新の言葉だけを、手元に。</h3>
+              <p>画面下部に直近の発言を表示。会話から目を離さず追えます。</p>
+            </div>
+            <div class="mode-demo caption-demo" aria-hidden="true">
+              <div><strong>自分</strong><p>次の打ち合わせまでに反映します。</p></div>
+              <span class="mini-control">× <i></i> ✓</span>
+            </div>
+          </article>
+          <article class="mode-card mode-mini">
+            <div class="mode-copy">
+              <span>ミニ表示</span>
+              <h3>文字を隠して、声だけに集中。</h3>
+              <p>入力レベルだけを小さく表示。文字起こしと整形はバックグラウンドで進みます。</p>
+            </div>
+            <div class="mode-demo mini-demo" aria-hidden="true">
+              <b>×</b>
+              <div class="mini-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <b>✓</b>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="privacy" id="privacy" aria-labelledby="privacy-title">
+        <div class="privacy-mark" aria-hidden="true">
+          <span class="lock-body"></span><span class="lock-loop"></span>
+          <i></i><i></i><i></i>
+        </div>
+        <div class="privacy-copy">
+          <p class="eyebrow">Private by design</p>
+          <h2 id="privacy-title">音声も文章も、<br />このMacの外へ送らない。</h2>
+          <p>
+            文字起こしと整形には、macOS内蔵モデルまたはMacへ取得したオンデバイスモデルを使用します。
+            会話の内容をクラウドへ送る必要はありません。
+          </p>
+          <ul class="privacy-points">
+            <li><span>✓</span>マイクとシステム音声をMac内で処理</li>
+            <li><span>✓</span>履歴と録音の保存先を自分で管理</li>
+            <li><span>✓</span>Developer ID署名・Apple公証済み</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="download-section" id="download">
+        <span class="download-kanji" aria-hidden="true">余韻</span>
+        <div class="download-echo" aria-hidden="true"><i></i><i></i><i></i></div>
+        <p class="eyebrow">声を、次の行動へ。</p>
+        <h2>会話が終わっても、<br />意味は残る。</h2>
+        <a
+          class="button button-primary button-large"
+          data-download-link
+          href="https://github.com/yagince/yoin-releases/releases/latest"
+        >
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 20h14" /></svg>
+          Yoinをダウンロード
+        </a>
+        <p class="compatibility">Apple Silicon · macOS 26以降 · <span data-version>最新版</span></p>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand footer-brand" href="#top"><img src="./assets/yoin-logo.svg" alt="Yoin" /></a>
+      <p>声が消えたあとも、意味は言葉として残る。</p>
+      <nav aria-label="フッターナビゲーション">
+        <a href="https://github.com/yagince/yoin-releases/releases/latest">Releases</a>
+        <a href="https://github.com/yagince/yoin-releases">GitHub</a>
+      </nav>
+      <p class="copyright">© 2026 Yoin</p>
+    </footer>
+
+    <script src="./site.js" defer></script>
+  </body>
+</html>
