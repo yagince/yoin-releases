@@ -3,6 +3,16 @@
     <channel>
         <title>Yoin</title>
         <item>
+            <title>0.0.4</title>
+            <pubDate>Sun, 09 Aug 2026 21:40:07 +0000</pubDate>
+            <link>https://github.com/yagince/yoin-releases</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.4/Yoin-0.0.4.dmg" length="26942291" type="application/octet-stream" sparkle:edSignature="mgBXfGdi3MO89xJytM/cKFurT3UGWEomq8EQ8L5dqaAOIbgQyQAUkfIYdi4rl5PmFR7zUE6/YmvMagps0VmlBQ=="/>
+        </item>
+        <item>
             <title>0.0.3</title>
             <pubDate>Fri, 07 Aug 2026 14:37:17 +0000</pubDate>
             <link>https://github.com/yagince/yoin-releases</link>
