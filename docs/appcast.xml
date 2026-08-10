@@ -3,6 +3,16 @@
     <channel>
         <title>Yoin</title>
         <item>
+            <title>0.0.5</title>
+            <pubDate>Mon, 10 Aug 2026 04:52:03 +0000</pubDate>
+            <link>https://github.com/yagince/yoin-releases</link>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.5/Yoin-0.0.5.dmg" length="22048311" type="application/octet-stream" sparkle:edSignature="1XBUBSyXPF9+6XvNMVSNAJSUk018iivbVc4u4wG03mzWJD3Z4JOLg459a5TNcfyhRU6Aj+guASXNeyQxKlXyBA=="/>
+        </item>
+        <item>
             <title>0.0.4</title>
             <pubDate>Sun, 09 Aug 2026 21:40:07 +0000</pubDate>
             <link>https://github.com/yagince/yoin-releases</link>
@@ -21,16 +31,6 @@
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.3/Yoin-0.0.3.dmg" length="21893605" type="application/octet-stream" sparkle:edSignature="OQnYTPE3RaELZfcMywyDlU8uzBxIE30Nn9PreCrl2h4yWHQhVl0oQKWgexauNKVFWfRGK/9wv2qJ5qgcOsP0Cw=="/>
-        </item>
-        <item>
-            <title>0.0.2</title>
-            <pubDate>Fri, 07 Aug 2026 14:07:05 +0000</pubDate>
-            <link>https://github.com/yagince/yoin-releases</link>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>0.0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.2/Yoin-0.0.2.dmg" length="21927476" type="application/octet-stream" sparkle:edSignature="/C1biMYt8Wod1dLz1If75iheasToiDly2FNxLi2UnUn1K0RmzgaYV8uBb9XtlJCi7aIa+oQV4aGWbQLpYh3sCA=="/>
         </item>
     </channel>
 </rss>
