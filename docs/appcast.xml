@@ -3,6 +3,16 @@
     <channel>
         <title>Yoin</title>
         <item>
+            <title>0.0.16</title>
+            <pubDate>Sat, 22 Aug 2026 16:01:58 +0000</pubDate>
+            <link>https://github.com/yagince/yoin-releases</link>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.0.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.16/Yoin-0.0.16.dmg" length="22675018" type="application/octet-stream" sparkle:edSignature="VLRzFjtj2sRjuzp3Vhj6Ut7+DP/0JvqNcbjBMijEITxTkLOw/gOUPGXIW8sPysEU+3Zg9IShZL1RkAmhzQ9sAA=="/>
+        </item>
+        <item>
             <title>0.0.15</title>
             <pubDate>Sat, 22 Aug 2026 10:21:16 +0000</pubDate>
             <link>https://github.com/yagince/yoin-releases</link>
@@ -21,16 +31,6 @@
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.14/Yoin-0.0.14.dmg" length="22010624" type="application/octet-stream" sparkle:edSignature="RVYPkxan3RYR4+eyr9wn9nS6JypYPeW/g6Ps75+6IsabztLJoP83FM1ATPU3V7B5z5kcqX7EdaURZPCpRmVhDw=="/>
-        </item>
-        <item>
-            <title>0.0.13</title>
-            <pubDate>Sun, 16 Aug 2026 12:58:26 +0000</pubDate>
-            <link>https://github.com/yagince/yoin-releases</link>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>0.0.13</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.13/Yoin-0.0.13.dmg" length="21964218" type="application/octet-stream" sparkle:edSignature="xa5Yw2w9OKawURLiaPg8KRiuP29iVK3cZ+sbMfNq8vu61pDRxfwVELTG8Ktbz0FzrNXmrdHQs7u9qLS0dmR4Cg=="/>
         </item>
     </channel>
 </rss>
