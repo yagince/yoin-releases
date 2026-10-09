@@ -3,6 +3,29 @@
     <channel>
         <title>Yoin</title>
         <item>
+            <title>0.0.21</title>
+            <pubDate>Fri, 09 Oct 2026 16:02:13 +0000</pubDate>
+            <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.21</link>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>0.0.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Yoin 0.0.21
+
+## 変更内容
+
+- 更新ダイアログに、バージョン番号とリリースノートを表示するようにしました。変更内容を読んでから更新でき、GitHubのリリースページも開けます。
+
+## 改善・修正
+
+- 長時間の文字起こしで、履歴の増加に伴って話者ラベルの更新が重くなる問題を修正しました。新しい文字起こしと話者判定が変わった範囲だけを照合し、ライブ処理の負荷を軽減します。
+
+
+[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.21)
+]]></description>
+            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.21/Yoin-0.0.21.dmg" length="32750741" type="application/octet-stream" sparkle:edSignature="OXmEyRHrHtehpM7yvpruKy5d6y7Efn+13KSlNJCqod3NyRLakahmcGenKIDB2N2yTlTPhCcdDgO7k/V7iSkBAA=="/>
+        </item>
+        <item>
             <title>0.0.20</title>
             <pubDate>Fri, 09 Oct 2026 12:21:12 +0000</pubDate>
             <link>https://github.com/yagince/yoin-releases</link>
@@ -21,16 +44,6 @@
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.19/Yoin-0.0.19.dmg" length="28954990" type="application/octet-stream" sparkle:edSignature="5ZlCt3RGmxK7DEh7H4WcJl01oR9HoYMNjt1dEQ0H+2OEPatGMQdZvIHhobVxZDs1AekgWNERIZZPzKhRDmnnCg=="/>
-        </item>
-        <item>
-            <title>0.0.18</title>
-            <pubDate>Wed, 09 Sep 2026 09:52:16 +0000</pubDate>
-            <link>https://github.com/yagince/yoin-releases</link>
-            <sparkle:version>18</sparkle:version>
-            <sparkle:shortVersionString>0.0.18</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.18/Yoin-0.0.18.dmg" length="28952901" type="application/octet-stream" sparkle:edSignature="oApj3rkB0pnYHRiHfJfALCXEIFoNgJ1oEq9OiUHcY131upjyAlrVm5IDd+BhIneJ/hxZ7Q0nxuu8wcM67ZvRBw=="/>
         </item>
     </channel>
 </rss>
