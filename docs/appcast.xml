@@ -3,6 +3,27 @@
     <channel>
         <title>Yoin</title>
         <item>
+            <title>0.0.23</title>
+            <pubDate>Fri, 23 Oct 2026 05:07:37 +0000</pubDate>
+            <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.23</link>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>0.0.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Yoin 0.0.23
+
+## セキュリティ・安定性
+
+- 配布物の作成時に外部から取得する資材について、macOS標準の証明書検証を使うようにしました。eMudhra / emSignの証明書問題への対応です。資材のチェックサム検証も引き続き行います。
+- ローカルの音声認識・話者分離に使う関連ライブラリを更新しました。
+- 依存ライブラリの更新に合わせて、ビルド手順を調整しました。
+
+
+[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.23)
+]]></description>
+            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.23/Yoin-0.0.23.dmg" length="33358719" type="application/octet-stream" sparkle:edSignature="mo80V9LjknxmIurGqXj75gPPoPcnt+BpIhwkjv/QdW45OjvhUdLsq3dIdYGhGN8J6fKKEpxCF4R5LA2zWPrTBA=="/>
+        </item>
+        <item>
             <title>0.0.22</title>
             <pubDate>Wed, 14 Oct 2026 07:16:00 +0000</pubDate>
             <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.22</link>
@@ -47,16 +68,6 @@
 [GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.21)
 ]]></description>
             <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.21/Yoin-0.0.21.dmg" length="32750741" type="application/octet-stream" sparkle:edSignature="OXmEyRHrHtehpM7yvpruKy5d6y7Efn+13KSlNJCqod3NyRLakahmcGenKIDB2N2yTlTPhCcdDgO7k/V7iSkBAA=="/>
-        </item>
-        <item>
-            <title>0.0.20</title>
-            <pubDate>Fri, 09 Oct 2026 12:21:12 +0000</pubDate>
-            <link>https://github.com/yagince/yoin-releases</link>
-            <sparkle:version>20</sparkle:version>
-            <sparkle:shortVersionString>0.0.20</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.20/Yoin-0.0.20.dmg" length="32740112" type="application/octet-stream" sparkle:edSignature="feXp4baN28If/bG95faeUZlL3fSprsv2dOyDVhJJSOpdHQ4wzWeOIlydUAE1VoZ2Duus5WWewC+YoCXvZUFOBw=="/>
         </item>
     </channel>
 </rss>
