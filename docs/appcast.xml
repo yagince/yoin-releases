@@ -3,6 +3,37 @@
     <channel>
         <title>Yoin</title>
         <item>
+            <title>0.0.25</title>
+            <pubDate>Thu, 29 Oct 2026 16:02:22 +0000</pubDate>
+            <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.25</link>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>0.0.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Yoin 0.0.25
+
+## 変更内容
+
+- 会話モードで録音・文字起こしを続けながら、クイック切替で別の作業へ音声入力できるようになりました。たとえば、会議の記録を残しつつ、メモやメールなどに必要な内容を話して入力できます。
+- クイック入力を終了しても会話の記録は続き、貼り付けられるのはクイック入力した分だけです。クイック入力中の発話も、会話の記録に残ります。
+- 通常の開始と既定ショートカットは同じ文字起こしを操作し、クイック切替はシーンごとに独立して開始・終了できます。シーンごとに自動整形の有無と、終了後の出力方法を設定できます。
+
+## 改善・修正
+
+- クイック切替の字幕に警告や整形待ちの案内が表示されたとき、下部の操作ボタンが画面から見切れる問題を修正しました。
+
+## 注意事項
+
+- 同時に利用できる文字起こしは3件までです。
+- Qwen3-ASRによる文字起こし中は、AI整形を待機します。待たずに文字起こし本文をそのまま貼り付ける操作も選べます。
+- 音声ファイルの保存は、設定で有効にした場合に行います。
+
+
+[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.25)
+]]></description>
+            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.25/Yoin-0.0.25.dmg" length="33553833" type="application/octet-stream" sparkle:edSignature="OFqW0LdKNOw3INPRDnZj/P3uuhSEmL3S7jS6InBOlvr7X68ujl3A/RVuXLSWOlG7uSIrgCq2u1YAwwB23FSBBg=="/>
+        </item>
+        <item>
             <title>0.0.24</title>
             <pubDate>Sat, 24 Oct 2026 15:20:18 +0000</pubDate>
             <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.24</link>
@@ -41,29 +72,6 @@
 [GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.23)
 ]]></description>
             <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.23/Yoin-0.0.23.dmg" length="33358719" type="application/octet-stream" sparkle:edSignature="mo80V9LjknxmIurGqXj75gPPoPcnt+BpIhwkjv/QdW45OjvhUdLsq3dIdYGhGN8J6fKKEpxCF4R5LA2zWPrTBA=="/>
-        </item>
-        <item>
-            <title>0.0.22</title>
-            <pubDate>Wed, 14 Oct 2026 07:16:00 +0000</pubDate>
-            <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.22</link>
-            <sparkle:version>22</sparkle:version>
-            <sparkle:shortVersionString>0.0.22</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Yoin 0.0.22
-
-## 改善・修正
-
-- 長時間の収録中に、文字起こしウィンドウが操作できなくなることがある問題に対して、表示更新の負荷を下げる変更を入れました。録音中は文字起こしが細かく更新されるたびに画面を描き直していた処理を見直し、固まりにくくしています。
-
-## 注意事項
-
-- 録音中でまだ確定していない文字起こしは、テキストを選択できません。発話が確定すると選択できるようになります。全文のコピーはこれまでどおり行えます。
-
-
-[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.22)
-]]></description>
-            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.22/Yoin-0.0.22.dmg" length="32868370" type="application/octet-stream" sparkle:edSignature="eSKwhY5AYTzkvs9hxrMvk5GlBSuPp3fBbG9194rNwx3/YXGj50qBfOrKth4Km5HfNtjyaBwz/83CTeYEiGBLCg=="/>
         </item>
     </channel>
 </rss>
