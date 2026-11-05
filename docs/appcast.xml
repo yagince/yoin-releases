@@ -3,6 +3,32 @@
     <channel>
         <title>Yoin</title>
         <item>
+            <title>0.0.26</title>
+            <pubDate>Thu, 05 Nov 2026 02:43:57 +0000</pubDate>
+            <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.26</link>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>0.0.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Yoin 0.0.26
+
+## 変更内容
+
+- 日本語に特化した文字起こしモデル「Haas-ja v1.0 日本語」を、実験的な選択肢として追加しました。設定画面の「取得」で、本体と音声区間検出モデルを取得し、このMac向けの最適化までまとめて済ませます（約1.2 GB、最適化に1〜2分）。
+- 「Parakeet 0.6B 日本語」を、発話の区切りごとに認識する方式に変えました。これまでの方式では語の重複や崩れが多く発生していましたが、日本語の読み上げ音声での比較では誤りが約5分の1に減りました。
+
+## 注意事項
+
+- Haas-ja v1.0とParakeet 0.6B 日本語は、話し終えて少し間が空いたところで、その発話の文字がまとめて表示されます。話している途中の文字は表示されません。
+- Parakeet 0.6B 日本語を初めて使うときは、音声区間検出モデルを追加で取得します。取得済みの場合も、初回の開始時にこのMac向けの最適化で1分ほど「準備中」が続くことがあります。
+- どちらも実験的なモデルです。日本語の読み上げ音声での比較では、Qwen3-ASRのほうが正確でした。
+
+
+[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.26)
+]]></description>
+            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.26/Yoin-0.0.26.dmg" length="33594764" type="application/octet-stream" sparkle:edSignature="+e6j2BICdy7JKURW41qUpn0T+CGFCKbSC2tlGIwl4AJotIA13mORIr0PU44vpUW71Zh1EY2TRVYiO4jRS0XTCg=="/>
+        </item>
+        <item>
             <title>0.0.25</title>
             <pubDate>Thu, 29 Oct 2026 16:02:22 +0000</pubDate>
             <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.25</link>
@@ -51,27 +77,6 @@
 [GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.24)
 ]]></description>
             <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.24/Yoin-0.0.24.dmg" length="33282192" type="application/octet-stream" sparkle:edSignature="W9UDuvTqWRGhktYpggVewHR9dkMJDQnKRlyOnzIMR9v0ax6mpeRnoRIO/fcepmgI38BULqn9WWHLJoZ9Jwf+Cw=="/>
-        </item>
-        <item>
-            <title>0.0.23</title>
-            <pubDate>Fri, 23 Oct 2026 05:07:37 +0000</pubDate>
-            <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.23</link>
-            <sparkle:version>23</sparkle:version>
-            <sparkle:shortVersionString>0.0.23</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Yoin 0.0.23
-
-## セキュリティ・安定性
-
-- 配布物の作成時に外部から取得する資材について、macOS標準の証明書検証を使うようにしました。eMudhra / emSignの証明書問題への対応です。資材のチェックサム検証も引き続き行います。
-- ローカルの音声認識・話者分離に使う関連ライブラリを更新しました。
-- 依存ライブラリの更新に合わせて、ビルド手順を調整しました。
-
-
-[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.23)
-]]></description>
-            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.23/Yoin-0.0.23.dmg" length="33358719" type="application/octet-stream" sparkle:edSignature="mo80V9LjknxmIurGqXj75gPPoPcnt+BpIhwkjv/QdW45OjvhUdLsq3dIdYGhGN8J6fKKEpxCF4R5LA2zWPrTBA=="/>
         </item>
     </channel>
 </rss>
