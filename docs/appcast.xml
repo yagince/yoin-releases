@@ -3,6 +3,29 @@
     <channel>
         <title>Yoin</title>
         <item>
+            <title>0.0.27</title>
+            <pubDate>Mon, 09 Nov 2026 06:45:34 +0000</pubDate>
+            <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.27</link>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>0.0.27</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Yoin 0.0.27
+
+## 変更内容
+
+- 文字起こしモデルの選択肢で「Parakeet 0.6B 日本語」を推奨として先頭に表示するようにしました。日本語の会議でも高い精度で文字起こしできます。
+
+## 注意事項
+
+- 既定のモデルは、これまでどおりダウンロード不要の macOS 内蔵 Dictation です。Parakeet 0.6B 日本語を使うには、設定画面でモデルを選んで「取得」してください。
+
+
+[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.27)
+]]></description>
+            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.27/Yoin-0.0.27.dmg" length="34207055" type="application/octet-stream" sparkle:edSignature="bkkQJsVKwY0q8HFuwA/ZAbcAVap3/Io8a6nHaGI1he8GlCn/yN6oAUm3dz4WVfvZxLuV3JHz1jpBx6fu2LKmCw=="/>
+        </item>
+        <item>
             <title>0.0.26</title>
             <pubDate>Thu, 05 Nov 2026 02:43:57 +0000</pubDate>
             <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.26</link>
@@ -58,25 +81,6 @@
 [GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.25)
 ]]></description>
             <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.25/Yoin-0.0.25.dmg" length="33553833" type="application/octet-stream" sparkle:edSignature="OFqW0LdKNOw3INPRDnZj/P3uuhSEmL3S7jS6InBOlvr7X68ujl3A/RVuXLSWOlG7uSIrgCq2u1YAwwB23FSBBg=="/>
-        </item>
-        <item>
-            <title>0.0.24</title>
-            <pubDate>Sat, 24 Oct 2026 15:20:18 +0000</pubDate>
-            <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.24</link>
-            <sparkle:version>24</sparkle:version>
-            <sparkle:shortVersionString>0.0.24</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Yoin 0.0.24
-
-## 改善・修正
-
-- 自分の声だけを文字起こししたときに、整形（AIによる整文）へ渡す文章へ「自分：」のような話者ラベルを付けないようにしました。1人で話した内容を整えるときの結果が読みやすくなります。相手の発話がある会話では、これまでどおり話者ラベルを付けて整形します。
-
-
-[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.24)
-]]></description>
-            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.24/Yoin-0.0.24.dmg" length="33282192" type="application/octet-stream" sparkle:edSignature="W9UDuvTqWRGhktYpggVewHR9dkMJDQnKRlyOnzIMR9v0ax6mpeRnoRIO/fcepmgI38BULqn9WWHLJoZ9Jwf+Cw=="/>
         </item>
     </channel>
 </rss>
