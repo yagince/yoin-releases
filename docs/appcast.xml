@@ -3,6 +3,29 @@
     <channel>
         <title>Yoin</title>
         <item>
+            <title>0.0.28</title>
+            <pubDate>Tue, 10 Nov 2026 07:03:40 +0000</pubDate>
+            <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.28</link>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>0.0.28</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Yoin 0.0.28
+
+## 改善・修正
+
+- 文字起こしの表示で、相手が話し終えたあとに自分が話すと、相手の続きの発話が前のカードに追加されず、新しいカードとして会話の順に並ぶようにしました。相手の発話に重なる相づちでは、これまでどおりカードを分けません。
+
+## 注意事項
+
+- 以前のバージョンで記録した履歴は発話の終わりの時刻に無音が含まれているため、すばやい返答が前のカードにまとまったままになることがあります。
+
+
+[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.28)
+]]></description>
+            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.28/Yoin-0.0.28.dmg" length="34210153" type="application/octet-stream" sparkle:edSignature="a65/oSEKI+Ed6PDIn/PHIHjMB37PUwe/luUw9AyyjbBkWA8hJnqTNipZ3qpzHaGuyWXZTNPbbFhjUmPCRH3jCg=="/>
+        </item>
+        <item>
             <title>0.0.27</title>
             <pubDate>Mon, 09 Nov 2026 06:45:34 +0000</pubDate>
             <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.27</link>
@@ -50,37 +73,6 @@
 [GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.26)
 ]]></description>
             <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.26/Yoin-0.0.26.dmg" length="33594764" type="application/octet-stream" sparkle:edSignature="+e6j2BICdy7JKURW41qUpn0T+CGFCKbSC2tlGIwl4AJotIA13mORIr0PU44vpUW71Zh1EY2TRVYiO4jRS0XTCg=="/>
-        </item>
-        <item>
-            <title>0.0.25</title>
-            <pubDate>Thu, 29 Oct 2026 16:02:22 +0000</pubDate>
-            <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.25</link>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>0.0.25</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Yoin 0.0.25
-
-## 変更内容
-
-- 会話モードで録音・文字起こしを続けながら、クイック切替で別の作業へ音声入力できるようになりました。たとえば、会議の記録を残しつつ、メモやメールなどに必要な内容を話して入力できます。
-- クイック入力を終了しても会話の記録は続き、貼り付けられるのはクイック入力した分だけです。クイック入力中の発話も、会話の記録に残ります。
-- 通常の開始と既定ショートカットは同じ文字起こしを操作し、クイック切替はシーンごとに独立して開始・終了できます。シーンごとに自動整形の有無と、終了後の出力方法を設定できます。
-
-## 改善・修正
-
-- クイック切替の字幕に警告や整形待ちの案内が表示されたとき、下部の操作ボタンが画面から見切れる問題を修正しました。
-
-## 注意事項
-
-- 同時に利用できる文字起こしは3件までです。
-- Qwen3-ASRによる文字起こし中は、AI整形を待機します。待たずに文字起こし本文をそのまま貼り付ける操作も選べます。
-- 音声ファイルの保存は、設定で有効にした場合に行います。
-
-
-[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.25)
-]]></description>
-            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.25/Yoin-0.0.25.dmg" length="33553833" type="application/octet-stream" sparkle:edSignature="OFqW0LdKNOw3INPRDnZj/P3uuhSEmL3S7jS6InBOlvr7X68ujl3A/RVuXLSWOlG7uSIrgCq2u1YAwwB23FSBBg=="/>
         </item>
     </channel>
 </rss>
