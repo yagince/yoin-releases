@@ -3,6 +3,26 @@
     <channel>
         <title>Yoin</title>
         <item>
+            <title>1.0.0</title>
+            <pubDate>Wed, 11 Nov 2026 01:38:40 +0000</pubDate>
+            <link>https://github.com/yagince/yoin-releases/releases/tag/v1.0.0</link>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Yoin 1.0.0
+
+## 改善・修正
+
+- 起動してからメニューバーにアイコンが出るまでの時間を短くしました。オーディオデバイスが多い環境では、マイク一覧の取得を待って20秒以上かかることがありました。
+- マイク一覧の取得中でも文字起こしを開始できるようにしました。開始すると「準備中」になり、マイク一覧の取得が終わりしだい録音を始めます。
+
+
+[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v1.0.0)
+]]></description>
+            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v1.0.0/Yoin-1.0.0.dmg" length="34211303" type="application/octet-stream" sparkle:edSignature="QV89+89YS7l5wr/cieritYRWZ10FuaGIEKc1frNaHUnPIyQ3A+oCxztFMB0g/5cXD6p9EpS9k0T31nRpbDqqBw=="/>
+        </item>
+        <item>
             <title>0.0.29</title>
             <pubDate>Tue, 10 Nov 2026 09:41:40 +0000</pubDate>
             <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.29</link>
@@ -43,29 +63,6 @@
 [GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.28)
 ]]></description>
             <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.28/Yoin-0.0.28.dmg" length="34210153" type="application/octet-stream" sparkle:edSignature="a65/oSEKI+Ed6PDIn/PHIHjMB37PUwe/luUw9AyyjbBkWA8hJnqTNipZ3qpzHaGuyWXZTNPbbFhjUmPCRH3jCg=="/>
-        </item>
-        <item>
-            <title>0.0.27</title>
-            <pubDate>Mon, 09 Nov 2026 06:45:34 +0000</pubDate>
-            <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.27</link>
-            <sparkle:version>27</sparkle:version>
-            <sparkle:shortVersionString>0.0.27</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Yoin 0.0.27
-
-## 変更内容
-
-- 文字起こしモデルの選択肢で「Parakeet 0.6B 日本語」を推奨として先頭に表示するようにしました。日本語の会議でも高い精度で文字起こしできます。
-
-## 注意事項
-
-- 既定のモデルは、これまでどおりダウンロード不要の macOS 内蔵 Dictation です。Parakeet 0.6B 日本語を使うには、設定画面でモデルを選んで「取得」してください。
-
-
-[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.27)
-]]></description>
-            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.27/Yoin-0.0.27.dmg" length="34207055" type="application/octet-stream" sparkle:edSignature="bkkQJsVKwY0q8HFuwA/ZAbcAVap3/Io8a6nHaGI1he8GlCn/yN6oAUm3dz4WVfvZxLuV3JHz1jpBx6fu2LKmCw=="/>
         </item>
     </channel>
 </rss>
