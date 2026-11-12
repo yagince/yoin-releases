@@ -3,6 +3,31 @@
     <channel>
         <title>Yoin</title>
         <item>
+            <title>1.1.0</title>
+            <pubDate>Thu, 12 Nov 2026 13:52:34 +0000</pubDate>
+            <link>https://github.com/yagince/yoin-releases/releases/tag/v1.1.0</link>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Yoin 1.1.0
+
+## 変更内容
+
+- 文字起こし中に表示する発話の文字サイズを、最小・小・標準・大・最大の5段階で選べるようにしました。標準はこれまでと同じ大きさです。
+- 文字起こしウィンドウの「…」メニューの「文字サイズ」から、収録中でもその場で変えられます。ウィンドウをクリックしたあとは ⌘+ / ⌘− でも一段階ずつ変えられます。
+- 設定の「一般」＞「表示」からも選べ、選んだ大きさの見本を確認できます。
+
+## 改善・修正
+
+- 字幕表示で、発話の最後の2行が途中で切れずに収まるようにしました。発話の下に余白が残ることがありました。ウィンドウの高さは文字の大きさに合わせて変わります。
+
+
+[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v1.1.0)
+]]></description>
+            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v1.1.0/Yoin-1.1.0.dmg" length="33337640" type="application/octet-stream" sparkle:edSignature="U+ums9alvkQBYQeMnLUbv9d+c1H2DMr4cy5cAyuys5XdKquaF6wT0PALN87ozgHVMEWvLjYulJV1mml78qF1Aw=="/>
+        </item>
+        <item>
             <title>1.0.0</title>
             <pubDate>Wed, 11 Nov 2026 01:38:40 +0000</pubDate>
             <link>https://github.com/yagince/yoin-releases/releases/tag/v1.0.0</link>
@@ -40,29 +65,6 @@
 [GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.29)
 ]]></description>
             <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.29/Yoin-0.0.29.dmg" length="34211616" type="application/octet-stream" sparkle:edSignature="/L3cBi2popznRL7/RQxKOXMxM68D0vhC/vM97tTTxEkok/QzYhXRNpSiYMh7/jC+xYevpwo0uPVS4ZZRy6FlCg=="/>
-        </item>
-        <item>
-            <title>0.0.28</title>
-            <pubDate>Tue, 10 Nov 2026 07:03:40 +0000</pubDate>
-            <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.28</link>
-            <sparkle:version>28</sparkle:version>
-            <sparkle:shortVersionString>0.0.28</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Yoin 0.0.28
-
-## 改善・修正
-
-- 文字起こしの表示で、相手が話し終えたあとに自分が話すと、相手の続きの発話が前のカードに追加されず、新しいカードとして会話の順に並ぶようにしました。相手の発話に重なる相づちでは、これまでどおりカードを分けません。
-
-## 注意事項
-
-- 以前のバージョンで記録した履歴は発話の終わりの時刻に無音が含まれているため、すばやい返答が前のカードにまとまったままになることがあります。
-
-
-[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.28)
-]]></description>
-            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.28/Yoin-0.0.28.dmg" length="34210153" type="application/octet-stream" sparkle:edSignature="a65/oSEKI+Ed6PDIn/PHIHjMB37PUwe/luUw9AyyjbBkWA8hJnqTNipZ3qpzHaGuyWXZTNPbbFhjUmPCRH3jCg=="/>
         </item>
     </channel>
 </rss>
