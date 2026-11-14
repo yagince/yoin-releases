@@ -3,6 +3,32 @@
     <channel>
         <title>Yoin</title>
         <item>
+            <title>1.1.1</title>
+            <pubDate>Sat, 14 Nov 2026 12:52:53 +0000</pubDate>
+            <link>https://github.com/yagince/yoin-releases/releases/tag/v1.1.1</link>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Yoin 1.1.1
+
+## 改善・修正
+
+- 文字起こしモデルに「Parakeet 日本語」または「Haas-ja」を選んでいるとき、相手側の話者が短い間で交代すると、複数人の発言が1人ぶんにまとまって表示される問題を修正しました。発言の途中で話者が変わった位置で、発話が分かれるようになります。
+  - 相手側の発話が、話者の交代だけでなく、相手が少し黙った間にあなたが話した位置でも分かれるようになります。
+  - 話者を判定できなかった語は「話者不明」として別に表示されることがあります。
+  - 「Qwen3-ASR」は対象外で、これまでどおり発話ごとに1人の話者が付きます。
+  - すでに保存済みのセッションの表示は変わりません。
+- 文字起こしモデルに「Parakeet 日本語」「Haas-ja」「Qwen3-ASR」を選んでいるとき、相手が間を置かずに話し続けると、発言の一部が文字にならずに抜けることがある問題を改善しました。長い発話を、語の途中ではなく息継ぎの位置で区切るようになります。
+- 「Parakeet 日本語」「Haas-ja」で、相手が話し続けているときに文字が表示されるまでの待ち時間を、最長12秒ほどから6秒ほどに短くしました。
+- 話者分離を使っているとき、2人目の相手の最初の発言が、あとから1人目の発言としてまとめ直されることがある問題を改善しました。
+
+
+[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v1.1.1)
+]]></description>
+            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v1.1.1/Yoin-1.1.1.dmg" length="33359250" type="application/octet-stream" sparkle:edSignature="TXLWjXHlQU60rNOxZld5t8aiD0aPyeajCAo2DdK2MMz2I5Ft0Q/7SZrL2dymLCQ+jWIKJhrnVGvST3566IbKCw=="/>
+        </item>
+        <item>
             <title>1.1.0</title>
             <pubDate>Thu, 12 Nov 2026 13:52:34 +0000</pubDate>
             <link>https://github.com/yagince/yoin-releases/releases/tag/v1.1.0</link>
@@ -46,25 +72,6 @@
 [GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v1.0.0)
 ]]></description>
             <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v1.0.0/Yoin-1.0.0.dmg" length="34211303" type="application/octet-stream" sparkle:edSignature="QV89+89YS7l5wr/cieritYRWZ10FuaGIEKc1frNaHUnPIyQ3A+oCxztFMB0g/5cXD6p9EpS9k0T31nRpbDqqBw=="/>
-        </item>
-        <item>
-            <title>0.0.29</title>
-            <pubDate>Tue, 10 Nov 2026 09:41:40 +0000</pubDate>
-            <link>https://github.com/yagince/yoin-releases/releases/tag/v0.0.29</link>
-            <sparkle:version>29</sparkle:version>
-            <sparkle:shortVersionString>0.0.29</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Yoin 0.0.29
-
-## 改善・修正
-
-- 収録中に文字起こし画面やメニューで整形プリセットを切り替えると、そのセッションは切り替えたプリセットで整形するようにしました。これまでは収録を始めたときのプリセットで整形されていました。切り替えはそのセッションの終了までで、次の収録では設定画面で選んだ既定のプリセット（クイック切替ではその設定のプリセット）に戻ります。
-
-
-[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v0.0.29)
-]]></description>
-            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v0.0.29/Yoin-0.0.29.dmg" length="34211616" type="application/octet-stream" sparkle:edSignature="/L3cBi2popznRL7/RQxKOXMxM68D0vhC/vM97tTTxEkok/QzYhXRNpSiYMh7/jC+xYevpwo0uPVS4ZZRy6FlCg=="/>
         </item>
     </channel>
 </rss>
