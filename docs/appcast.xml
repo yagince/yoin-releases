@@ -3,6 +3,39 @@
     <channel>
         <title>Yoin</title>
         <item>
+            <title>1.2.0</title>
+            <pubDate>Mon, 23 Nov 2026 11:37:58 +0000</pubDate>
+            <link>https://github.com/yagince/yoin-releases/releases/tag/v1.2.0</link>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Yoin 1.2.0
+
+## 変更内容
+
+- 会話表示で収録している間、たまった会話から順に整形して、文字起こしの横へ足していけるようになりました。設定の「整形のタイミング」にある「会話表示では収録中から整形していく」でオンにできます（初期値はオフ）。
+  - 「終了後に自動で整形する」がオンなら、終了時は残りの会話だけを整形するので、長い会議でも終わってすぐ結果を読めます。
+  - オフなら終了時は何も整形せず、収録中の結果をそのまま残します。このとき、終了直前の会話は整形結果に入らないことがあります。
+  - 文字起こしと整形モデルが同時に動くため、Macの負荷は上がります。文字起こしに「Qwen3-ASR」を使うときは動きません。
+- 相手が話している間に入った短い相槌（「うん」など）と、物音を聞き違えたようなごく短い発話（「えっ？」など）を、画面の文字起こし・コピー・整形から除くようにしました。言葉の一覧で消すのではなく、発話の長さ・相手の発話との重なり・認識の確信度で判定します。保存される文字起こしは元のまま残ります。
+  - 設定の「文字起こし」にある「相槌と短い雑音を除く」でオン・オフを切り替えられます（初期値はオン）。履歴の表示にも同じ設定が反映されます。
+
+## 改善・修正
+
+- 「終了後に自動で整形する」がオフでも、コピーか自動ペーストがオンなら、文字起こしをそのまま結果として渡してウインドウを閉じるようにしました。これまでは整形をオフにすると、コピーもペーストもされず、ウインドウが開いたままでした。
+- 設定の「整形」を、「整形のタイミング」「結果の受け渡し」「整形プリセット」の3つに分けました。整形モデルと整形ルールが、選んだプリセットの中身であることが分かりやすくなります。
+
+## 注意事項
+
+- 自動整形をオフにしていて、コピー（初期値はオン）か自動ペーストがオンの場合、終了時に未整形の文字起こしがコピーされてウインドウが閉じるようになります。終了後に画面で文字起こしを確認してから整形したい場合は、コピーと自動ペーストをオフにしてください。
+
+
+[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v1.2.0)
+]]></description>
+            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v1.2.0/Yoin-1.2.0.dmg" length="33472326" type="application/octet-stream" sparkle:edSignature="czN1qjHlk1YVLqRdcLNyJQjUHYm0nTMirbbnf3eK2r3qu/0IC7Z2nUqQDulczGpv3HZ1Ed40fn169tPq290EBw=="/>
+        </item>
+        <item>
             <title>1.1.1</title>
             <pubDate>Sat, 14 Nov 2026 12:52:53 +0000</pubDate>
             <link>https://github.com/yagince/yoin-releases/releases/tag/v1.1.1</link>
@@ -52,26 +85,6 @@
 [GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v1.1.0)
 ]]></description>
             <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v1.1.0/Yoin-1.1.0.dmg" length="33337640" type="application/octet-stream" sparkle:edSignature="U+ums9alvkQBYQeMnLUbv9d+c1H2DMr4cy5cAyuys5XdKquaF6wT0PALN87ozgHVMEWvLjYulJV1mml78qF1Aw=="/>
-        </item>
-        <item>
-            <title>1.0.0</title>
-            <pubDate>Wed, 11 Nov 2026 01:38:40 +0000</pubDate>
-            <link>https://github.com/yagince/yoin-releases/releases/tag/v1.0.0</link>
-            <sparkle:version>30</sparkle:version>
-            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Yoin 1.0.0
-
-## 改善・修正
-
-- 起動してからメニューバーにアイコンが出るまでの時間を短くしました。オーディオデバイスが多い環境では、マイク一覧の取得を待って20秒以上かかることがありました。
-- マイク一覧の取得中でも文字起こしを開始できるようにしました。開始すると「準備中」になり、マイク一覧の取得が終わりしだい録音を始めます。
-
-
-[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v1.0.0)
-]]></description>
-            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v1.0.0/Yoin-1.0.0.dmg" length="34211303" type="application/octet-stream" sparkle:edSignature="QV89+89YS7l5wr/cieritYRWZ10FuaGIEKc1frNaHUnPIyQ3A+oCxztFMB0g/5cXD6p9EpS9k0T31nRpbDqqBw=="/>
         </item>
     </channel>
 </rss>
