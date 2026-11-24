@@ -3,6 +3,25 @@
     <channel>
         <title>Yoin</title>
         <item>
+            <title>1.2.1</title>
+            <pubDate>Tue, 24 Nov 2026 12:20:57 +0000</pubDate>
+            <link>https://github.com/yagince/yoin-releases/releases/tag/v1.2.1</link>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Yoin 1.2.1
+
+## 改善・修正
+
+- 会話表示で収録中から整形していくとき、整形を始めてから次を始めるまで15秒空けるようにしました。会話が続いている間じゅうCPUの負荷が上がったままになるのを抑えます。その代わり、整形結果の表示は最大で15秒ほど遅れます。
+
+
+[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v1.2.1)
+]]></description>
+            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v1.2.1/Yoin-1.2.1.dmg" length="33466557" type="application/octet-stream" sparkle:edSignature="mQ3oZKZpcczuMIymhCGtbD7EtUY/CaOoF+ht5qcfhoyOOLm4MWzf1hxpNWjGAwjU/dSblCERzWRflIeZ7gtYBQ=="/>
+        </item>
+        <item>
             <title>1.2.0</title>
             <pubDate>Mon, 23 Nov 2026 11:37:58 +0000</pubDate>
             <link>https://github.com/yagince/yoin-releases/releases/tag/v1.2.0</link>
@@ -60,31 +79,6 @@
 [GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v1.1.1)
 ]]></description>
             <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v1.1.1/Yoin-1.1.1.dmg" length="33359250" type="application/octet-stream" sparkle:edSignature="TXLWjXHlQU60rNOxZld5t8aiD0aPyeajCAo2DdK2MMz2I5Ft0Q/7SZrL2dymLCQ+jWIKJhrnVGvST3566IbKCw=="/>
-        </item>
-        <item>
-            <title>1.1.0</title>
-            <pubDate>Thu, 12 Nov 2026 13:52:34 +0000</pubDate>
-            <link>https://github.com/yagince/yoin-releases/releases/tag/v1.1.0</link>
-            <sparkle:version>31</sparkle:version>
-            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Yoin 1.1.0
-
-## 変更内容
-
-- 文字起こし中に表示する発話の文字サイズを、最小・小・標準・大・最大の5段階で選べるようにしました。標準はこれまでと同じ大きさです。
-- 文字起こしウィンドウの「…」メニューの「文字サイズ」から、収録中でもその場で変えられます。ウィンドウをクリックしたあとは ⌘+ / ⌘− でも一段階ずつ変えられます。
-- 設定の「一般」＞「表示」からも選べ、選んだ大きさの見本を確認できます。
-
-## 改善・修正
-
-- 字幕表示で、発話の最後の2行が途中で切れずに収まるようにしました。発話の下に余白が残ることがありました。ウィンドウの高さは文字の大きさに合わせて変わります。
-
-
-[GitHubでリリースノートを見る](https://github.com/yagince/yoin-releases/releases/tag/v1.1.0)
-]]></description>
-            <enclosure url="https://github.com/yagince/yoin-releases/releases/download/v1.1.0/Yoin-1.1.0.dmg" length="33337640" type="application/octet-stream" sparkle:edSignature="U+ums9alvkQBYQeMnLUbv9d+c1H2DMr4cy5cAyuys5XdKquaF6wT0PALN87ozgHVMEWvLjYulJV1mml78qF1Aw=="/>
         </item>
     </channel>
 </rss>
